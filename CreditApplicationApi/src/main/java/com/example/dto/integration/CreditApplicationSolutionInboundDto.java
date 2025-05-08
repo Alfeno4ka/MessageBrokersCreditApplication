@@ -10,7 +10,6 @@ import java.util.UUID;
  */
 @Data
 public class CreditApplicationSolutionInboundDto {
-
     private UUID applicationId;
     private ApplicationStatus applicationSolution;
 }

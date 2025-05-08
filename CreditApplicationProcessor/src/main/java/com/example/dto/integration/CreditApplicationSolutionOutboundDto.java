@@ -9,7 +9,6 @@ import java.util.UUID;
  */
 @Data
 public class CreditApplicationSolutionOutboundDto {
-
-    UUID applicationId;
-    Solution applicationSolution;
+    private UUID applicationId;
+    private Solution applicationSolution;
 }
